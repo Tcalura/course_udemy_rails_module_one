@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @name.email %>
+</p>
+
+<p>
+  <strong>Kind:</strong>
+  <%= @name.kind %>
+</p>
+
+<p>
+  <strong>Rmk:</strong>
+  <%= @name.rmk %>
+</p>
+
+<%= link_to 'Edit', edit_name_path(@name) %> |
+<%= link_to 'Back', names_path %>
