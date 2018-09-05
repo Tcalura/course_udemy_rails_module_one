@@ -1,6 +1,7 @@
-class CreateNames < ActiveRecord::Migration
+class CreateContacts < ActiveRecord::Migration
   def change
-    create_table :names do |t|
+    create_table :contacts do |t|
+      t.string :name
       t.string :email
       t.references :kind, index: true, foreign_key: true
       t.text :rmk
