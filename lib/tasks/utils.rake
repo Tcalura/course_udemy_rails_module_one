@@ -1,4 +1,4 @@
-namespace :utils do
+  namespace :utils do
   
   desc "Popular banco de dados."
   task seed: :environment do
