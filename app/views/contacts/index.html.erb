@@ -1,5 +1,9 @@
 <div class="basic-grey"> 
-  <p id="notice"><%= notice %></p>
+
+  <script>
+    $.notify("<%= notice %>",  "success");
+  </script>
+  
 
   <h1> <%= "#{ t('messages.listing') } #{ @contacts.model.model_name.human(count: @contacts.size) } "%></h1>
 
@@ -24,7 +28,7 @@
     </tbody>
   </table>
   <br>
-  <%= paginate @contacts, window: 1 %>
+  <%= paginate @contacts, window: 1, theme: 'twitter-bootstrap-4', pagination_class: "pagination-sm"%>
   <br>
   <%= link_to t('buttons.new'), new_contact_path, class: "btn btn-primary" %>
   <%= link_to t('buttons.home'), root_path, class: "btn btn-success" %>

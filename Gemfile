@@ -1,8 +1,10 @@
 source 'https://rubygems.org'
 ruby '2.3.0'
 
-gem 'bundler', '>= 1.8.4'
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
+gem 'bundler', '>= 1.8.4'
+# Find Brazilian addresses by zipcode, directly from Correios database. No HTML parsers.
+gem 'correios-cep'
 
 gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
@@ -12,6 +14,8 @@ gem 'rails', '4.2.5'
 gem 'kaminari-i18n'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4
 gem 'kaminari'
+# Gem - Bootstrap 4 styling for Kaminari gem
+gem 'bootstrap4-kaminari-views'
 # Dynamic nested forms using jQuery made easy; works with formtastic, simple_form or default forms
 gem 'cocoon'
 # O Lero-lero Generator é uma ferramenta capaz de gerar frases que 'falam' muita coisa mas que não tem conteúdo algum.
