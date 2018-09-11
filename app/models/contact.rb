@@ -1,3 +1,16 @@
+# == Schema Information
+#
+# Table name: contacts
+#
+#  id         :integer          not null, primary key
+#  name       :string
+#  email      :string
+#  kind_id    :integer
+#  rmk        :text
+#  created_at :datetime         not null
+#  updated_at :datetime         not null
+#
+
 class Contact < ActiveRecord::Base
   belongs_to :kind
   has_one :address, dependent: :destroy

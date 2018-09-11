@@ -8,8 +8,9 @@ gem 'correios-cep'
 
 gem 'rails-assets-bootstrap', '3.3.6', source: 'https://rails-assets.org'
 gem 'rails-assets-notifyjs', source: 'https://rails-assets.org'
-
 gem 'rails', '4.2.5'
+# Annotate Rails classes with schema and routes info
+gem 'annotate'
 # i18n for kaminari
 gem 'kaminari-i18n'
 # A Scope & Engine based, clean, powerful, customizable and sophisticated paginator for Rails 3 and 4
