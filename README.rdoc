@@ -1,28 +1,15 @@
-== README
+### Olá, esse é um projeto de um curso do Professor  [Jackson Pires](https://github.com/jacksonpires). 
+[Link para o curso](https://www.udemy.com/rubyonrails/learn/v4/overview)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+----
+### Resumo
 
-Things you may want to cover:
+> É um curso sobre programação com Ruby e o Framework Rails, abrangendo conceitos básicos da linguagem Ruby, arquitetura MVC e até assuntos mais avançados como o Deploy com Capistrano.
 
-* Ruby version
+### Observações 
+1. Esse projeto é referente ao módulo 1 do curso.
+2. Está sendo implementado uma nova feature para CEP(zipcode) com auto preenchimento do endereço após a sua digitação.
+3. DER do projeto. 
+![DER](https://raw.githubusercontent.com/Tcalura/course_udemy_rails_module_one/master/DER.png)
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+> Obrigado.
